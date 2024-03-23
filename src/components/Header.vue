@@ -15,46 +15,7 @@ export default{
 
   <header>
    
-    <div class=" _contenitore contaier d-flex  ">
-
-      <div class="links ">
-        <nav>
-          <ul class="d-flex">
-            <li>
-              <a href="#">Uomo</a>
-            </li>
-            <li>
-              <a href="#">Donna</a>
-            </li>
-            <li>
-              <a href="#">Bambino</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="icons">
-        LOGO
-      </div>
-
-      <div>
-        <div>
-           icon 1
-        </div>
-
-        <div>
-          icon 1
-
-        </div>
-
-        <div>
-          icon 1
-
-        </div>
-
-      </div>
-
-    </div>
+    
   </header>
  
 
