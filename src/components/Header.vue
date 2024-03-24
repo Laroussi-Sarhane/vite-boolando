@@ -17,13 +17,27 @@ export default{
    
     <div class="container d-flex justify-content-between py-3 ">
 
-      <div>uomo donna baby</div>
+      <div>
+        <ul class=" d-flex ">
+          <li><a href="#">uomo</a></li>
+          <li><a href="#">donna</a></li>
+          <li><a href="#">bambino</a></li>
+          
+        </ul>
+      </div>
 
       <div>
         <img src="../assets/img/boolean-logo.png" alt="boolean-logo.png">
       </div>
 
-      <div>icone</div>
+      <div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+
+        </ul>
+      </div>
 
 
     </div>
@@ -53,6 +67,11 @@ li{
   a{
     color: black;
     padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    &:hover{
+      text-decoration: underline;
+    }
   }
   
 }
@@ -61,7 +80,8 @@ li{
 
 }
 img{
-  width: 200px;
+  width: 180px;
+  
 }
 
 
