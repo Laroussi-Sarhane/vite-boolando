@@ -1,10 +1,9 @@
 <script>
+import productcard from './partials/productcard.vue';
 
 export default{
-  data(){
-    return{
-
-    }
+  components:{
+    productcard,
   }
 
 }
@@ -13,9 +12,21 @@ export default{
 
 <template>
 
+  
+  
   <main>
-   <div>
-    main
+    
+    <div class="contenitore">
+     <productcard/>
+     <productcard/>
+     <productcard/>
+     <productcard/>
+     <productcard/>
+     <productcard/>
+    
+
+    
+    
    </div>
   </main>
  
@@ -23,8 +34,10 @@ export default{
 </template>
 
 <style lang="scss" scoped>
-main{
-  min-height: 500px;
+.contenitore{
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 
