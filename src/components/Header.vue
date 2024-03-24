@@ -15,7 +15,18 @@ export default{
 
   <header>
    
-    
+    <div class="container d-flex justify-content-between py-3 ">
+
+      <div>uomo donna baby</div>
+
+      <div>
+        <img src="../assets/img/boolean-logo.png" alt="boolean-logo.png">
+      </div>
+
+      <div>icone</div>
+
+
+    </div>
   </header>
  
 
@@ -39,17 +50,18 @@ header{
   }
 li{
   list-style: none;
-  &:hover{
-    text-decoration: underline;
-  }
   a{
     color: black;
     padding: 10px;
   }
+  
 }
 .icons{
   display: flex;
 
+}
+img{
+  width: 200px;
 }
 
 
