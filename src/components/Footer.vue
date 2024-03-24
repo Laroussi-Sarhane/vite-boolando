@@ -18,15 +18,22 @@ export default{
       <div>
         bolean srl 
         <div>
-          qua scrivo altere cose
+          <p>boolean srl è una societa che rispetta la tua privacy</p>
         </div>
 
       </div>
 
-      <div >puoi trovarci
+      <div >puoi tovarci anche qui:
 
-        <div class="d-flex">
-          qua ci vanno le icone 
+        <div>
+          <ul class="d-flex">
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-x-twitter"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+
+          </ul>
+          
 
         </div>
 
@@ -45,6 +52,14 @@ footer{
 }
 div{
   color: white;
+}
+ul{
+  display: flex;
+  li{
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+  }
 }
 
 

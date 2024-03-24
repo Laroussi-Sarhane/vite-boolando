@@ -31,10 +31,10 @@ export default{
       </div>
 
       <div>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+        <ul class=" d-flex ">
+          <li><i class="fa-solid fa-user"></i></li>
+          <li><i class="fa-solid fa-heart"></i></li>
+          <li><i class="fa-solid fa-bag-shopping"></i></li>
 
         </ul>
       </div>
@@ -75,13 +75,14 @@ li{
   }
   
 }
-.icons{
-  display: flex;
-
-}
 img{
   width: 180px;
-  
+}
+ul{
+  padding: 5px;
+  li{
+    padding: 3px;
+  }
 }
 
 
