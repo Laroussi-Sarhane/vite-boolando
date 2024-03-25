@@ -3,11 +3,12 @@
 
 export default{
    props:{
-    frontImage: String,
-    backImage: String,
-    brand: String,
-    name: String,
-    price: String
+   cardObj: Object
+   },
+   methods:{
+    getPathImage(imageName){
+      return new URL (`../../assets/img/${imageName}`, import.meta.url).href
+    }
    }
   }
 
@@ -22,22 +23,22 @@ export default{
   <div class="product container ">
 
 <div class="first">
-  <img class="img" src="../../assets/img/1.webp" alt="">
+  <img class="img" :src="getPathImage(cardObj.frontImage)" :alt="cardObj.name ">
 </div>
 <div class="hearts"> <span id="cuore">&hearts;</span>
 </div>
 
 <div class="second">
-  <img class="img" src="../../assets/img/1b.webp" alt="1b.webp">
+  <img class="img" :src="getPathImage(cardObj.backImage)" :alt="cardObj.name ">
 </div>
 <div class="discount">-50%</div>
 
 <div class="sostenibility">sostenibilità</div>
 
-<p class="levis">levi's</p> 
- <strong>RELAXED FIT TEE UNISEX</strong> 
+<p class="levis">{{ cardObj.brand }}</p> 
+ <strong>{{ cardObj.name }}</strong> 
 <div class="prezzo">
-<span>14.99</span> <span class="prezzo-scontato">29.99</span> 
+<span>{{ cardObj.price }}</span> <span class="prezzo-scontato">29.99</span> 
 </div>
 
 </div>
