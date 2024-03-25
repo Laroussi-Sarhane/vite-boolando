@@ -19,16 +19,16 @@ export default{
 
 <div class="_card container  d-flex ">
 
-  <div class="product">
+  <div class="product container ">
 
 <div class="first">
-  <img class="img" src="../assets/img/1.webp" alt="1.webp">
+  <img class="img" src="../../assets/img/1.webp" alt="">
 </div>
 <div class="hearts"> <span id="cuore">&hearts;</span>
 </div>
 
 <div class="second">
-  <img class="img" src="../assets/img/1.webp" alt="webp">
+  <img class="img" src="../../assets/img/1b.webp" alt="1b.webp">
 </div>
 <div class="discount">-50%</div>
 
